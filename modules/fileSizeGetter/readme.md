@@ -12,18 +12,6 @@
 拡張子を配列で設定する
 
 
-### HTMLにファイルサイズを描画したいとき
-
-```
-import { FileSizeGetter } from './modules/fileSizeGetter/index.js';
-
-const filePath = 'ファイルのパス';
-
-const fileSizeGetter = new FileSizeGetter(filePath);
-
-fileSizeGetter.init();
-```
-
 ### ファイルサイズを取得したいとき
 
 ```
